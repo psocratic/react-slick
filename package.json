@@ -1,11 +1,10 @@
 {
-  "name": "react-slick",
+  "name": "react-slick-psocratic",
   "version": "0.14.7",
-  "description": " React port of slick carousel",
+  "description": " React port of slick carousel (with patches by @psocratic)",
   "main": "./lib",
   "scripts": {
     "start": "gulp server",
-    "postinstall": "babel ./src --out-dir ./lib",
     "prepublish": "babel ./src --out-dir ./lib && gulp dist",
     "test": "jest",
     "dev-test": "jest --watch",
@@ -15,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akiran/react-slick"
+    "url": "https://github.com/psocratic/react-slick"
   },
   "keywords": [
     "slick",
